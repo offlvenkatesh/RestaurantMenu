@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Contact Us</h1>
+ <ul>
+      <li><a href="/">Home</a></li>
+        <li><a href="/#about">About LTS</a></li>
+         <li><a href="/#menu">Our Menu</a></li>
+          
+           <li><a href="hours.html">Store Hours</a></li>
+    </ul>
+    <figure>
+        <img src="img/tacos_close_up_400x260.png" alt="Little Taco Shop Tacos" height="260" width="400" title="Tacos ready to eat!">
+        <figcaption>
+          Little Taco Shop Tacos
+        </figcaption>
+    </figure>   
+    </header>
+    <hr>
+    <main>
+        <!-- content -->
+         <h2>Our Contact Form</h2>
+         <form action="https://httpbin.org/get" method="get">
+           <fieldset>
+            <legend>Send Us A Message</legend> 
+            <!-- it adds the line to the  fildeset to the user to  give the information personal details -->
+            
+            <p> 
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" placeholder="your name" required>
+            </p>
+             <p> 
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="your email" required>
+            </p>
+            <p>
+              <label for="message">Your Message:</label><br>
+              <textarea naame="message" id="message" rows="10" cols="34" placeholder=" Type your message here" required></textarea>
+              
+            </p>
+           </fieldset>
+           <!-- the fieldset adds the border to group the related elements together -->
+           <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+            </form>
+ <section>
+ <h2>Our Location</h2>
+ <p><i>555 Taaco Temptation Lane, Suite T <br>Kansas City,  MO 55555-5555 <br> <br>
+phone:<a href="#"><b>555-555-5555</b></a></i></p>
+ </section>
+  <p> <a href="#">Back To Top</a></p>
+    </main>
+    <hr>
+    <footer>
+        <p> Copyright&copy;  The Little Taco Shop</p>
+        </footer>
+</body>
+</html>
